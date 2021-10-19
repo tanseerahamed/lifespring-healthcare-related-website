@@ -9,13 +9,7 @@ const Home = () => {
     return (
         <>
         <Card className="bg-dark text-white">
-            <Card.Img src={banner} alt="Card image" />
-            <Card.ImgOverlay>
-                <Card.Title><h1 className="text-primary">LifeSpring</h1></Card.Title>
-                <Card.Text>
-                <h6 className='text-success'>Your Physical and Mental Wellbeing Matters</h6>
-                </Card.Text>
-            </Card.ImgOverlay>
+        <Card.Img src={banner} alt="Card image" />
         </Card>
         <h2 className='text-success'>Our Top Services</h2>
         <CardGroup>

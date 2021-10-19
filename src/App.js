@@ -12,7 +12,6 @@ import Professionals from './components/Professionals/Professionals';
 import AuthProvider from './context/AuthProvider';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import ServiceDetails from './components/serviceDetails/ServiceDetails';
-import Register from './components/Register/Register';
 
 function App() {
   return (
@@ -38,9 +37,6 @@ function App() {
           </Route>
           <Route path='/about'>
             <About></About>
-          </Route>
-          <Route path="/register">
-            <Register></Register>
           </Route>
           <Route path='/login'>
             <Login></Login>
