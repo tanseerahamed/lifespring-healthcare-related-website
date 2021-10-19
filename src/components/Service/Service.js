@@ -11,7 +11,7 @@ const Service = (props) => {
             <p>Fee: {price}</p>
             <p>{description}</p>
             <Link to={`/servicedetails/${id}`}>
-                <button className="btn btn-warning">Get Your Service: {name.toLowerCase()}</button>
+            <button className="btn btn-warning mb-2">Get Your Service: {name.toLowerCase()}</button>
             </Link>
         </div>
     );
