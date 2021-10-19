@@ -1,0 +1,19 @@
+.header{
+    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    background: lightblue;
+    background-clip: border-box;  
+}
+.header-style{
+    padding: 10px;
+    font-weight: 600;
+    font-size: larger;
+    margin: 0 50px;	
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #626262;
+}

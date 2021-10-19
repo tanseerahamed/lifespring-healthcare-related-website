@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Marriage and Family Counselling",
+        "price": "300",
+        "description": "Couples therapists and marriage counselors treat some of the same issues as other psychologists, such as depression and anxiety, substance abuse, and PTSD. Some common issues that family counselors encounter are marital conflicts, adolescent behavior problems, domestic violence and issues related to infertility. ",
+        "img": " https://149650446.v2.pressablecdn.com/wp-content/uploads/2016/05/marriage-and-family-therapy-job-description.jpg "
+    },
+    {
+        "id": 2,
+        "name": "Guidance and Career Counselling",
+        "price": "100",
+        "description": " Mental health counselors offer guidance to individuals, couples, families and groups who are dealing with issues that affect their mental health and well-being. Many counselors approach their work holistically, using a “wellness” model (as opposed to an “illness” one) which highlights and encourages client’s strengths. ",
+        "img": " https://149650446.v2.pressablecdn.com/wp-content/uploads/2016/05/mental-health-counseling-1.jpg "
+    },
+    {
+        "id": 3,
+        "name": "Educational Counselling",
+        "price": "150",
+        "description": "School Psychologists  help students work through issues such as bullying, disabilities, low self-esteem, poor academic performance, social anxiety, problems with authority or problems at home. ",
+        "img": " https://149650446.v2.pressablecdn.com/wp-content/uploads/2016/05/school-psychology-job-description.jpg "
+    },
+    {
+        "id": 4,
+        "name": "Depression Management",
+        "price": "180",
+        "description": " Psychologists  help people work through issues such as depression, disabilities, low self-esteem, poor academic performance, social anxiety, problems with authority or problems at home.",
+        "img": " https://149650446.v2.pressablecdn.com/wp-content/uploads/2016/05/substance-abuse-counseling-1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Substance Abuse Counselling",
+        "price": "100",
+        "description": " Because every patient is an individual and is struggling with addiction in different ways, substance abuse counselors customize treatment plans for each client. They may meet regularly with clients as they recover, or work intensely with individuals in crisis.",
+        "img": " https://149650446.v2.pressablecdn.com/wp-content/uploads/2016/06/career-in-rehabilitation-counseling.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Relationship ANALYSIS",
+        "price": "300",
+        "description": " Couples therapists and marriage counselors treat some of the same issues as other psychologists, such as depression and anxiety, substance abuse, and PTSD. Some common issues that family counselors encounter are marital conflicts, adolescent behavior problems, domestic violence and issues related to infertility. ",
+        "img": " https://149650446.v2.pressablecdn.com/wp-content/uploads/2016/06/article-types-of-counseling.jpg"
+    }
+]
