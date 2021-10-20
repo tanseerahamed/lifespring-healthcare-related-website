@@ -1,8 +1,18 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
+import banner from "../../images/banner/banner.png";
 
 const About = () => {
     return (
         <div>
+            
+
+            <Card className="bg-dark text-white">
+                <Card.Img src={banner} alt="Card image" />
+                <Card.ImgOverlay>
+                    <Card.Text className="text-primary text-center fw-bold fs-3">YOUR MENTAL AND PHYSICAL WELLBEING MATTER TO US</Card.Text>
+                </Card.ImgOverlay>
+            </Card>
             <h1>ABOUT US</h1>
             <p>LifeSpring has been founded with the vision to be the nation’s leading community-based mental health institute dedicated to promoting mental health as a pivotal of overall wellness.
 

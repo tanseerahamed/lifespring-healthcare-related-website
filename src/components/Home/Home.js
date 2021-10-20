@@ -1,16 +1,21 @@
 import React from 'react';
-import { Accordion, Card, CardGroup } from 'react-bootstrap';
-import banner from "../../images/banner/banner2.jpg";
+import { Accordion, Card, CardGroup} from 'react-bootstrap';
+import banner from "../../images/banner/banner.png";
 import services5 from "../../images/services/5.jpg";
 import services4 from "../../images/services/4.jpg";
 import services3 from "../../images/services/3.jpg";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
         <>
         <Card className="bg-dark text-white">
         <Card.Img src={banner} alt="Card image" />
+        <Card.ImgOverlay>
+            <Card.Text className="text-primary text-center fw-bold fs-3">YOUR MENTAL AND PHYSICAL WELLBEING MATTER TO US</Card.Text>
+        </Card.ImgOverlay>
         </Card>
+ 
         <h2 className='text-success'>Our Top Services</h2>
         <CardGroup>
         <Card>
@@ -41,6 +46,7 @@ const Home = () => {
             </Card.Body>
         </Card>
         </CardGroup>
+        <button className="btn btn-info m-3 p-2"><Link className="text-decoration-none fw-bolder text-dark" to='/services'>Please Explore Our All Services</Link></button>
         <h1 className="text-success">Frequently Asked Questions (FAQs)</h1>
         <Accordion>
         <Accordion.Item eventKey="0">
