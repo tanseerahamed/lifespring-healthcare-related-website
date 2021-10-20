@@ -5,6 +5,7 @@ import services5 from "../../images/services/5.jpg";
 import services4 from "../../images/services/4.jpg";
 import services3 from "../../images/services/3.jpg";
 import { Link } from 'react-router-dom';
+import './Home.css';
 
 const Home = () => {
     return (
@@ -16,7 +17,7 @@ const Home = () => {
         </Card.ImgOverlay>
         </Card>
  
-        <h2 className='text-success'>Our Top Services</h2>
+        <h2 className='text-success fw-bold m-2'>Our Top Services</h2>
         <CardGroup>
         <Card>
             <Card.Img className="w-100" variant="top" src={services5} />
@@ -47,7 +48,8 @@ const Home = () => {
         </Card>
         </CardGroup>
         <button className="btn btn-info m-3 p-2"><Link className="text-decoration-none fw-bolder text-dark" to='/services'>Please Explore Our All Services</Link></button>
-        <h1 className="text-success">Frequently Asked Questions (FAQs)</h1>
+
+        <h2 className="text-success fw-bold m-2">Frequently Asked Questions (FAQs)</h2>
         <Accordion>
         <Accordion.Item eventKey="0">
             <Accordion.Header> What is mental health?</Accordion.Header>
@@ -86,6 +88,18 @@ const Home = () => {
             </Accordion.Body>
         </Accordion.Item>
         </Accordion>
+
+        <h2 className="text-success fw-bold m-2">LifeSpring Exclusive Vedio Gallery</h2>
+                <div className="d-flex justify-content-evenly mb-2">
+                <iframe width="330" height="250" src="https://www.youtube.com/embed/1lIYpHfZ8BU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="330" height="250" src="https://www.youtube.com/embed/XiwkWvsuCYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   
+                <iframe width="330" height="250" src="https://www.youtube.com/embed/TD-7txiHuu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+
+                <button className="btn btn-info m-3 p-2"> <a className="text-decoration-none fw-bolder text-dark" href="https://www.youtube.com/c/LifeSpringLimited/videos"
+                rel="noreferrer" target="_blank" >Please Get More Valuable Advises from our Experts</a></button>
         </>
     );
 };

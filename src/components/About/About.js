@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import banner from "../../images/banner/banner.png";
 
 const About = () => {
@@ -36,6 +37,7 @@ const About = () => {
             To provide a holistic approach to mental health care services we proudly introduce our team of dedicated senior and junior Psychiatrists, Psychologists, Psychosocial workers, and Psychotherapists.
 
             Comprising more than 200 mental health professionals, with the vision to provide mental and behavioral health services to all – we believe in inclusive work and social integration of mental health care services.</p>
+            <button className="btn btn-info m-3 p-2"><Link className="text-decoration-none fw-bolder text-dark" to='/services'>Please Explore Our All Services</Link></button>
         </div>
     );
 };
