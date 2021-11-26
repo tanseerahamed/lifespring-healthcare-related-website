@@ -1,7 +1,7 @@
 WEbsite Link: https://lifespring-healthcare.web.app/
 
 
-Code Link: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-tanseerahamed
+Code Link: https://github.com/tanseerahamed/lifespring-healthcare-related-website
 
 
 •	Mental Health Care Related Website.
